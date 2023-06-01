@@ -1,0 +1,38 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    padding: 60px;
+}
+
+.input-search { 
+    width: 100%;
+}
+
+.card-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 6px;
+margin: 0 10px 10px 10px;
+
+}
+
+.card p {
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.card img {
+    max-height: 200px;
+    width:auto;  
+}
