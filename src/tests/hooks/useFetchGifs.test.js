@@ -10,7 +10,7 @@ jest.mock('../../helpers/getGifs', () => ({
 }));
 
 describe('useFetchGifs', () => {
-  test.skip('should return initial state with loading set to true', () => {
+  test('should return initial state with loading set to true', () => {
     const category = 'Dragon Ball';
     const { result } = renderHook(() => useFetchGifs(category));
 
